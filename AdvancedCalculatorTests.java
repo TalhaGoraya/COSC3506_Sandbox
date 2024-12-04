@@ -49,8 +49,8 @@ class AdvancedCalculatorTests{
     void factorial(){
         // for testing good inputs
 
-        assertEquals(24, calc.factorial(0), "0! should be 1 ");
-        assertEquals(120, calc.factorial(5), "5! should be 24 ")
+        assertEquals(1, calc.factorial(0), "0! should be 1 ");
+        assertEquals(120, calc.factorial(5), "5! should be 120 ")
 
         // for negative inputs
 
