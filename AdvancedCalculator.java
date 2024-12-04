@@ -25,11 +25,11 @@ public class AdvancedCalculator {
         }
         return true;
     }
-    public long factorial(int number) {     //Calculates factorial
+    public long factorial(int number){     //Calculates factorial
         if (number<0){
             throw new IllegalArgumentException("Factorial is undefined for negative numbers");
         }
-        long result = 1;
+        long result=1;
         for(int i=1;i<=number;i++){
             result*=i;
         }
