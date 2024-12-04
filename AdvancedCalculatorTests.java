@@ -46,7 +46,7 @@ class AdvancedCalculatorTests{
 
     @Test
 
-    void testnombrefactorielle(){
+    void factorial(){
         // for testing good inputs
 
         assertEquals(24, calc.factorial(0), "0! should be 1 ");
