@@ -7,7 +7,7 @@ class AdvancedCalculatorTests{
 
     @Test
 
-    void Power(){
+    void power(){
         //For testing of positive exp
 
         assertEquals(8.0, calc.power(2,3),0.0001, " 2^3 should be 8");
